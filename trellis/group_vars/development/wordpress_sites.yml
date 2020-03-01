@@ -1,0 +1,18 @@
+# Created by trellis-cli v0.6.0
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  waterfairi.es:
+    site_hosts:
+    - canonical: waterfairi.test
+      redirects:
+      - www.waterfairi.test
+    local_path: ../site
+    admin_email: admin@waterfairi.test
+    multisite:
+      enabled: false
+    ssl:
+      enabled: true
+      provider: self-signed
+    cache:
+      enabled: false
