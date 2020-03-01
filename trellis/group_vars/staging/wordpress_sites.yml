@@ -20,6 +20,4 @@ wordpress_sites:
       enabled: false
     db_create: false
     env:
-      db_name: waterfairi_es_staging
-      db_user: waterfairi_es_staging
       db_host: 127.0.0.1:3306
