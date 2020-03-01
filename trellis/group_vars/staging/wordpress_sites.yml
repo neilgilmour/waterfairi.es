@@ -4,9 +4,7 @@
 wordpress_sites:
   waterfairi.es:
     site_hosts:
-    - canonical: waterfairi.es
-      redirects:
-      - www.waterfairi.es
+    - canonical: staging.waterfairi.es
     local_path: ../site
     branch: master
     repo: git@github.com:neilgilmour/waterfairi.es.git
