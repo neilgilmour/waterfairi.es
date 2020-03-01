@@ -1,3 +1,6 @@
 path: web/wp
 server:
   docroot: web
+
+@staging:
+   ssh: neil@staging.waterfairi.es:/srv/www/waterfairi.es/current

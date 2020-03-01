@@ -5,13 +5,13 @@
 # Copyright (c) Ben Word
 
 DEVDIR="web/app/uploads/"
-DEVSITE="https://example.test"
+DEVSITE="https://waterfairi.test"
 
-PRODDIR="web@example.com:/srv/www/example/shared/uploads/"
-PRODSITE="https://example.com"
+PRODDIR="web@waterfairi.es:/srv/www/example/shared/uploads/"
+PRODSITE="https://waterfairi.es"
 
-STAGDIR="web@staging.example.com:/srv/www/example/shared/uploads/"
-STAGSITE="https://staging.example.com"
+STAGDIR="web@staging.waterfairi.es:/srv/www/example/shared/uploads/"
+STAGSITE="https://staging.waterfairi.es"
 
 FROM=$1
 TO=$2
